@@ -5,4 +5,5 @@
 DOM 메서드로 가져오는 방법
 
 let menu = document.getElmentById("menu1);
+
 let options = menu.getElmentByTagName("option");
