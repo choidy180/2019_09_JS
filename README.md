@@ -1,4 +1,6 @@
 # JS
+폼
+
 
 폼 요소와 컨트롤 요소 가져오기
 
@@ -27,3 +29,12 @@ document.forms.questions        // name 속성 값으로 가져오기
 또한 name 속성을 가지는 form 요소의 목록은 다음 방법으로도 가져올 수 있다
 
 document.questions;             // name 속성 값이 "question"인 form 요소의 목록
+
+form 요소 객체의 자식 요소 객체 가져오기
+form 요소 객체 자체도 유사 배열 객체이며, 해당 폼의 자식 요소인 폼 컨트롤 요소 객체를 배열의 요소로 갖고 있다
+
+document.forms.form1[3]
+document.forms.form1.bloodtype
+document.forms.form1.menu1
+
+
